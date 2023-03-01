@@ -1,0 +1,20 @@
+Sub convert()
+' Lic. Leonardo A. Caravaggio
+' Dirección de Modelos y Proyecciones 2016
+' Cambia todas las referencias de las imagenes pegadas como vínculo a una nueva dirección
+' Pegar este código en la ventana VBA de Word y ejecutar.
+
+Dim shp As Shape
+Dim a, nueva As String
+ 
+nueva = InputBox("Por favor, escriba la nueva carpeta de destino de los arcvhivos .png", "DMP 2016")
+
+For Each shp In ActiveDocument.Shapes
+On Error Resume Next
+    a = shp.LinkFormat.SourceName
+On Error Resume Next
+    shp.LinkFormat.SourceFullName = nueva & a
+
+Next shp
+
+End Sub
