@@ -26,3 +26,5 @@ Crea una copia del archivo Excel con las siguientes características:
 [Tacómetro](https://github.com/LCaravaggio/VBA/blob/master/Tacometro.xls) es un gráfico de Tacómetro en Excel. 
 
 [Convert](https://github.com/LCaravaggio/VBA/blob/master/convert.txt) es VBA para Word. Cambia masivamente la carpeta en la que están alojados los archivos linkeados en el documento. 
+
+[X12a](https://github.com/LCaravaggio/VBA/blob/master/x12a.xlam) y [X13a](https://github.com/LCaravaggio/VBA/blob/master/x13.xlam) son AddIns que permiten ejecutar dentro de Excel las desestacionalizaciones de X-12-ARIMA y X13-ARIMA-SEATS (ambas están incorporadas a LAC).
